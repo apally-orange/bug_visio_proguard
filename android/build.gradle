@@ -29,7 +29,7 @@ android {
         namespace 'com.example.build_visio_test'
     }
 
-    compileSdkVersion 33
+    compileSdk 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -80,7 +80,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.android.support:support-annotations:28.0.0'
-    implementation 'com.android.support:design:33.0.0'
-    implementation("org.jetbrains.kotlin:kotlin-reflect:$kotlin_version")
+    implementation 'com.android.support:design:34.0.0'
     implementation(name:"VisioMoveEssential", ext:"aar")
 }
