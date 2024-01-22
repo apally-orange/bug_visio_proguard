@@ -24,7 +24,7 @@ class FlutterBugOpenglNativeView(private val context: Context, private val activ
         activity.application.registerActivityLifecycleCallbacks(this)
 
         val builder = VMEMapControllerBuilder()
-        builder.mapHash = "mc8f3fec89d2b7283d15cfcf4eb28a0517428f054"
+        builder.mapHash = "m4b29e45535df17be9fffe16a088184690800a1dc"
         mapController = VMEMapController(activity, builder)
         mapController.setLifeCycleListener(visioglobeLifeCycleListener)
         mapController.loadMapView(mapView)
